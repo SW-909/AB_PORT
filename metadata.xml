@@ -51,7 +51,7 @@ URL:  www.company.com
 END:VCARD]]>
             </entity>
             <date>
-                <dateTime>2025-05-04</dateTime>
+                <dateTime>2025-05-14</dateTime>
         
                 <description>
                     <string language="en-US">This is the date this course was published from Adobe Captivate.</string>
@@ -68,7 +68,7 @@ END:VCARD]]>
 <![CDATA[BEGIN:VCARD
 VERSION:2.1
 FN:Adobe Captivate
-NOTE: version 12.5.0.35      
+NOTE: version 12.6.0.63      
 URL: http://www.adobe.com/products/captivate.html
 END:VCARD]]>
             </entity>

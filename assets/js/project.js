@@ -3,7 +3,7 @@ pref:{
 acc:1,
 rkt:1,
 hsr:0,
-atp:false,
+atp:true,
 lang:''
 },
 si1428:{
@@ -1589,8 +1589,8 @@ vb:[-2,-2,-1,-1]
 Slide390:{
 lb:'',
 id:390,
-from:631,
-to:720,
+from:1,
+to:90,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -1648,6 +1648,10 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
+1387:{
+ts:''
+}
+,
 1507:{
 ts:''
 }
@@ -1657,10 +1661,6 @@ ts:''
 }
 ,
 1427:{
-ts:''
-}
-,
-1387:{
 ts:''
 }
 
@@ -10175,7 +10175,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}},"appearanceProperties":{}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -11359,7 +11359,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si1611',
 retainState:false,
 immo:false,
@@ -11377,7 +11377,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -12662,7 +12662,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}},"appearanceProperties":{}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -13846,7 +13846,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si1772',
 retainState:false,
 immo:false,
@@ -13864,7 +13864,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -15149,7 +15149,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -16332,7 +16332,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si1976',
 retainState:false,
 immo:false,
@@ -16350,7 +16350,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -17635,7 +17635,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -18818,7 +18818,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si2134',
 retainState:false,
 immo:false,
@@ -18836,7 +18836,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -20121,7 +20121,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -21304,7 +21304,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si2292',
 retainState:false,
 immo:false,
@@ -21322,7 +21322,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -22607,7 +22607,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -23790,7 +23790,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si2450',
 retainState:false,
 immo:false,
@@ -23808,7 +23808,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -25093,7 +25093,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -26276,7 +26276,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si4456',
 retainState:false,
 immo:false,
@@ -26294,7 +26294,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -27579,7 +27579,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -28762,7 +28762,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si4617',
 retainState:false,
 immo:false,
@@ -28780,7 +28780,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -30065,7 +30065,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -31245,7 +31245,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si4775',
 retainState:false,
 immo:false,
@@ -31263,7 +31263,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -32539,7 +32539,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -33719,7 +33719,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si4933',
 retainState:false,
 immo:false,
@@ -33737,7 +33737,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -35013,7 +35013,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -36193,7 +36193,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si5091',
 retainState:false,
 immo:false,
@@ -36211,7 +36211,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -37487,7 +37487,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -38667,7 +38667,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si7749',
 retainState:false,
 immo:false,
@@ -38685,7 +38685,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -39961,7 +39961,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -41141,7 +41141,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si7907',
 retainState:false,
 immo:false,
@@ -41159,7 +41159,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -42435,7 +42435,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -43615,7 +43615,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si8065',
 retainState:false,
 immo:false,
@@ -43633,7 +43633,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -44909,7 +44909,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -46089,7 +46089,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si8223',
 retainState:false,
 immo:false,
@@ -46107,7 +46107,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -47383,7 +47383,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -48563,7 +48563,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si8381',
 retainState:false,
 immo:false,
@@ -48581,7 +48581,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -49857,7 +49857,7 @@ t:1268
 }
 ]
 ,
-containerType:'container-accordion-tab',
+containerType:'accordion-tab-container',
 widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0},"accordionSpacing":{"value":"D"},"visibilityInfo":{"slide-item-image":true,"card":false},"sizeNPos":{"x":0,"y":0,"height":798,"width":1128},"canBeCard":false,"alignment":{},"designOptionStyles":{"all":{},"tablet":{},"mobile":{}}}',
 option:'DEFAULT_ACCORDION_TAB_OPTION',
 padding:{
@@ -51037,7 +51037,7 @@ isOverridden:true
 }
 ]
 ,
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 parentGroup:'si8539',
 retainState:false,
 immo:false,
@@ -51055,7 +51055,7 @@ t:1268
 ]
 ,
 containerType:'paragraph',
-widgetProps:'{"padding":{"top":0,"bottom":0,"left":0,"right":0,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"isDTMLinked":false},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
+widgetProps:'{"padding":{"left":5,"top":40,"right":5,"isDTMLinked":false,"tablet":{"top":0,"right":0,"left":0,"bottom":0},"mobile":{"top":0,"right":0,"left":0,"bottom":0},"bottom":40},"visibilityInfo":{"isDerivedFromChild":true},"groupedItemsVisibility":{"isDerivedFromChild":true},"alignment":{"isDerivedFromChild":true},"canBeCard":false,"appearanceProperties":{},"autoFit":false,"designOptionStyles":{"all":{"display":"flex","flexDirection":"column","justifyContent":"center","paddingRight":"50px","paddingLeft":"40px","paddingTop":"40px","paddingBottom":"40px"},"tablet":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"},"mobile":{"paddingRight":"16px","paddingLeft":"16px","paddingTop":"16px","paddingBottom":"16px"}}}',
 option:'ACCORDIONS_WIDGET_PARAGRAPH_OPTION',
 padding:{
 left:0,
@@ -54756,11 +54756,11 @@ iph:{
 ts:''
 }
 ,
-7208:{
+1939:{
 ts:''
 }
 ,
-1939:{
+7208:{
 ts:''
 }
 
@@ -70867,11 +70867,11 @@ iph:{
 ts:''
 }
 ,
-4085:{
+8668:{
 ts:''
 }
 ,
-8668:{
+4085:{
 ts:''
 }
 
@@ -89181,14 +89181,14 @@ deviceType:1,
 width:1366,
 height:768,
 isSelected:true,
-orientation:1
+orientation:0
 }
 ,{
 deviceType:2,
 width:768,
 height:1024,
 isSelected:false,
-orientation:1
+orientation:0
 }
 ,{
 deviceType:3,
@@ -89718,7 +89718,7 @@ enableNavigation:true,
 tocProperties:'{"tocConfig":{"labels":{"TITLE":"Table of Contents","SLIDE_DETAILS":"SLIDE TITLE","DURATION":"DURATION","CLOSE_BUTTON_LABEL":"Close"},"slideDetails":[{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":4092,"isQuizSlide":false,"label":"Home","slideVisited":false,"type":"slide","id":"Slide4092"},{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":404,"isQuizSlide":false,"label":"Technology","slideVisited":false,"type":"slide","id":"Slide404"},{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":1508,"isQuizSlide":false,"label":"Specialties","slideVisited":false,"type":"slide","id":"Slide1508"},{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":2572,"isQuizSlide":false,"label":"Approaches to instructional design","slideVisited":false,"type":"slide","id":"Slide2572"},{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":6306,"isQuizSlide":false,"label":"Educational philosophy","slideVisited":false,"type":"slide","id":"Slide6306"},{"parentId":null,"isVisible":true,"isResultSlide":false,"labelShouldBeInSync":true,"originalId":9207,"isQuizSlide":false,"label":"About me","slideVisited":false,"type":"slide","id":"Slide9207"}],"tocGeneratedOnPreviewClick":false},"playbarConfig":{"isPlaybarControlsPlayEnabled":false,"isPlaybarControlsNextEnabled":true,"isPlaybarControlsTOCEnabled":false,"isShowPlaybarEnabled":false,"isShowTooltipsEnabled":false,"isPlaybarControlsBackEnabled":true,"isHidePlaybarInQuizEnabled":false,"isPlaybarControlsMuteEnabled":false,"isPlaybarControlsClosedCaptionsEnabled":false}}'
 },
 usedFonts:{
-usedFonts:'["Arial","Georgia"]'
+usedFonts:'["Georgia","Arial"]'
 },
 trecs:[{
 link:4092,
@@ -90084,14 +90084,14 @@ resources:['dr/01322.png','dr/04269.svg','dr/0470.svg']
 ,{
 slideID:2,
 ResourceList:{
-resources:['dr/01366.svg','dr/01406.svg','dr/01588.svg','dr/01627.png','dr/04269.svg','dr/04433.svg','dr/04472.png','dr/0470.svg']
+resources:['dr/01366.svg','dr/01406.svg','dr/01627.png','dr/04269.svg','dr/04472.png','dr/0470.svg']
 }
 
 }
 ,{
 slideID:3,
 ResourceList:{
-resources:['dr/01366.svg','dr/01406.svg','dr/03861.png','dr/03977.svg','dr/04113.svg','dr/04116.svg','dr/04269.svg','dr/0470.svg','dr/06293.png','dr/06295.png','dr/06297.png','dr/06299.png','dr/06301.png']
+resources:['dr/01366.svg','dr/01406.svg','dr/03861.png','dr/04269.svg','dr/0470.svg','dr/06293.png','dr/06295.png','dr/06297.png','dr/06299.png','dr/06301.png']
 }
 
 }
@@ -90121,7 +90121,7 @@ cp.model.audios=[
 ];
 
 cp.initVariables = function(){
-cp.cv('CaptivateVersion','12.5.0',1,1000,0);
+cp.cv('CaptivateVersion','12.6.0',1,1000,0);
 cp.cv('Date.DateDDMMYY','dd/mm/yyyy',1,15,0);
 cp.cv('Date.DateMMDDYY','mm/dd/yyyy',1,15,0);
 cp.cv('Date.Day',1,1,15,0);

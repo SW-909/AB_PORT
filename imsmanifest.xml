@@ -26,7 +26,7 @@
 			<title>Captivate E-Learning Course</title>
 			<item identifier="Course_ID1_SCO" identifierref="Course_ID1_SCO_RES" isvisible="true">
 				<!--****** Title ******-->
-				<title>index_SCO_Title</title>
+				<title>Course Object title</title>
 				<metadata>
 					<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lom.xsd">
 						<general>
